@@ -1,13 +1,4 @@
-/*
-  Theme Name: DevFolio
-  Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
 
-/*======================================
-//--//-->   STYLES GENERALES
-======================================*/
 
 body {
   background-color: #1e1e1e;
@@ -20,7 +11,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1e1e1e;
+  color: #c9c9c9;
 }
 
 a {
@@ -90,7 +81,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #212529;
 }
 
 .overlay-mf {
@@ -137,7 +128,7 @@ a:hover {
 
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  color: #c9c9c9;
   font-size: 1.1rem;
 }
 
@@ -154,13 +145,13 @@ a:hover {
 }
 
 .subtitle-a {
-  color: #4e4e4e;
+  color: #aaaaaa;
 }
 
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #c9c9c9;
   margin: 0 auto;
 }
 
@@ -178,8 +169,8 @@ a:hover {
 .title-left:before {
   content: '';
   position: absolute;
-  height: 3px;
-  background-color: #0078ff;
+  height: 4px;
+  background-color: #dc3545;
   width: 100px;
   bottom: -12px;
 }
@@ -216,12 +207,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px #dc3545;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: #dc3545;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -260,7 +251,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px #dc3545;
   display: block;
 }
 
@@ -326,7 +317,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #0078ff;
+  background: #dc3545;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -500,7 +491,7 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #aaaaaa;
+  color: #fff;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -681,11 +672,11 @@ a:hover {
 }
 
 .about-mf .about-img img {
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 .skill-mf span {
-  color: #4e4e4e;
+  color: #c9c9c9;
 }
 
 .skill-mf .progress {
@@ -697,7 +688,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #0078ff;
+  background-color: #dc3545;
 }
 
 /*======================================
@@ -705,16 +696,17 @@ a:hover {
 ======================================*/
 
 .service-box {
-  background-color: #fff;
+  background-color: #666666;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
+  height: 350px;
 }
 
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #0078ff;
+  background-color: #dc3545;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 
@@ -736,7 +728,7 @@ a:hover {
 }
 
 .service-box .s-description {
-  color: #4e4e4e;
+  color: #aaaaaa;
 }
 
 /*======================================
@@ -756,7 +748,7 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.8;
-  box-shadow: 0 0 0 10px #cde1f8;
+  
 }
 
 .counter-num .counter {
@@ -772,7 +764,7 @@ a:hover {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: #fff;
+  background-color: #666666;
 }
 
 .work-box:hover img {
@@ -799,17 +791,21 @@ a:hover {
 }
 
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  color: #aaaaaa;
+}
+
+.w-date {
+  color: #aaaaaa;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #0078ff;
+  color: #dc3545;
   float: right;
 }
 
 .work-content .w-like a {
-  color: #0078ff;
+  color: #dc3545;
 }
 
 .work-content .w-like .num-like {
@@ -1268,4 +1264,8 @@ footer .credits a {
   .back-to-top {
     bottom: 15px;
   }
+}
+
+.e1 {
+  margin-left: 2px;
 }
