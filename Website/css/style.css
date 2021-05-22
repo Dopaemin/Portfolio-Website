@@ -237,7 +237,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #0078ff;
+  color: #dc3545;
   margin-right: 10px;
 }
 
@@ -246,7 +246,7 @@ a:hover {
 .ico-circle {
   height: 100px;
   width: 100px;
-  font-size: 2rem;
+  font-size: 4.5rem;
   border-radius: 50%;
   line-height: 1.55;
   margin: 0 auto;
@@ -718,6 +718,7 @@ a:hover {
 .service-box .ico-circle {
   transition: all 500ms ease;
   font-size: 4rem;
+  padding-top: 15px;
 }
 
 .service-box .s-title {
@@ -745,14 +746,14 @@ a:hover {
 }
 
 .counter-ico .ico-circle {
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
   line-height: 1.8;
   
 }
 
 .counter-num .counter {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 0;
 }
 
@@ -910,7 +911,6 @@ a:hover {
 .card-blog .post-date {
   color: #4e4e4e;
   display: inline-block;
-  float: right;
 }
 
 /*======================================
@@ -1268,4 +1268,8 @@ footer .credits a {
 
 .e1 {
   margin-left: 2px;
+}
+
+.counter-text {
+  font-size:1.5rem;
 }
